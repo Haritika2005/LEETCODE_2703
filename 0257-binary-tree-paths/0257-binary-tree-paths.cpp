@@ -1,7 +1,8 @@
 class Solution {
 public:
 
-    void getpath(TreeNode* root, string path, vector<string>& ans) {
+    void getpath(TreeNode* root, string path, vector<string>& ans) 
+    {
 
         if(root == NULL)
             return;
